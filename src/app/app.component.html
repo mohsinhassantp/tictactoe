@@ -1,0 +1,25 @@
+<!--<div *ngFor = 'let lst of appList'>
+    <li>{{lst.ID}}</li>
+    <li>{{lst.Name}}</li>
+</div>-->
+
+    <table border="2" style="width:50%;height:50%;padding:5px;">
+        <tr><td><span (click)="clickMe($event)" attr.id="{{ appList[0]['ID']}}">{{appList[0]['state']}}</span></td>
+            <td><span (click)="clickMe($event)" attr.id="{{ appList[1]['ID']}}">{{appList[1]['state']}}</span></td>
+            <td><span (click)="clickMe($event)" attr.id="{{ appList[2]['ID']}}">{{appList[2]['state']}}</span></td>
+        </tr>
+        <tr><td><span (click)="clickMe($event)" attr.id="{{ appList[3]['ID']}}">{{appList[3]['state']}}</span></td>
+            <td><span (click)="clickMe($event)" attr.id="{{ appList[4]['ID']}}">{{appList[4]['state']}}</span></td>
+            <td><span (click)="clickMe($event)" attr.id="{{ appList[5]['ID']}}">{{appList[5]['state']}}</span></td>
+        </tr>
+        <tr><td><span (click)="clickMe($event)" attr.id="{{ appList[6]['ID']}}">{{appList[6]['state']}}</span></td>
+            <td><span (click)="clickMe($event)" attr.id="{{ appList[7]['ID']}}">{{appList[7]['state']}}</span></td>
+            <td><span (click)="clickMe($event)" attr.id="{{ appList[8]['ID']}}">{{appList[8]['state']}}</span></td>
+        </tr>
+
+
+    </table>
+
+<!--<button (click)="clickMe()">Click</button>-->
+<br/> <p><strong>{{msg}}</strong></p>
+
